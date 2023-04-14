@@ -1,6 +1,7 @@
 :root {
   --primary: #EB6440;
   --navbar-offset: 250px;
+  --skills-max: 10;
 }
 
 .navbar-left {

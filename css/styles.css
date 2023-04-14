@@ -37,6 +37,10 @@ img.circular {
   overflow: hidden;
 }
 
-.timeline-date {
+.border-right {
   border-right: 1px solid black;
+}
+
+.section {
+  margin: 60px 0px;
 }

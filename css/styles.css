@@ -45,3 +45,11 @@ img.circular {
   margin: 60px 0px;
   padding-left: 35px;
 }
+
+.scroll-cue {
+  width: 200px;
+  height: 200px;
+  bottom: 0px;
+  left: 50%;
+  object-fit: contain;
+}

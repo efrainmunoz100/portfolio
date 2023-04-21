@@ -53,3 +53,20 @@ img.circular {
   left: 50%;
   object-fit: contain;
 }
+
+#nav-name {
+  padding: 20px 0px;
+}
+
+.nav-item {
+  font-size: larger;
+  padding: 10px 0px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+#nav-name:hover {
+  color: white;
+}

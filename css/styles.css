@@ -67,6 +67,10 @@ img.circular {
   color: white;
 }
 
+.navbar .nav-link.active {
+  color: white;
+}
+
 #nav-name:hover {
   color: white;
 }

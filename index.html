@@ -64,12 +64,12 @@
         </div>
         <img src="images/scroll.gif" class="position-absolute scroll-cue">
       </div>
-      <div id="skills" class="section">
+      <div id="skills" class="section even">
         <div class="container-fluid d-flex flex-column row-gap-5">
           <div class="row">
             <h1>Skills</h1>
           </div>
-          <div class="row">
+          <div class="row ms-3">
             <div class="row">
               <div class="col-6 d-flex justify-content-center">
                 <h2>Frontend</h2>
@@ -111,7 +111,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row ms-3">
             <div class="row">
               <div class="col-6 d-flex justify-content-center">
                 <h2>Scripting & Internal Tools</h2>
@@ -135,7 +135,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row ms-3">
               <div class="row">
                 <div class="col-6 d-flex justify-content-center">
                   <h2>CLI</h2>
@@ -162,12 +162,12 @@
             </div>
           </div>
       </div>
-      <div id="education" class="section">
+      <div id="education" class="section odd">
         <div class="container-fluid">
           <div class="row">
             <h1>Education</h1>
           </div>
-          <div class="row align-items-center">
+          <div class="row align-items-center ms-3">
             <div class="col-4">
               <img src="images/cornell-logo.png" class="object-fit-scale mw-100">
             </div>
@@ -181,43 +181,71 @@
           </div>
         </div>
       </div>
-      <div id="work-experience" class="section">
+      <div id="work-experience" class="section even">
         <div class="container-fluid">
           <div class="row">
             <h1>Work Experience</h1>
           </div>
-          <div class="row gx-1">
+          <div class="row gx-1 ms-3">
             <div class="col-1 border-right">
               <h3>2023</h3>
             </div>
             <div class="col px-2">
               <strong>Abbott Laboratories | R&D Software Engineer I</strong> | Jan 2023 - present
+              <ul class="no-bullets">
+                <li>
+                  Rearchitected Abbott’s FreeStyle Libre iOS and Android apps to use the React Native Framework and TypeScript
+                </li>
+                <li>
+                  Ensured ultra high levels of code quality since our app requires FDA approval to monitor blood glucose levels
+                </li>
+                <li>
+                  Removed common developer roadblocks by automating scripts using Yarn Package Manager
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="row gx-1">
+          <div class="row gx-1 ms-3">
             <div class="col-1 border-right">
               <h3>2022</h3>
             </div>
             <div class="col px-2">
               <strong>Lyft | Software Engineer Intern</strong> | May 2022 - Aug 2022
+              <ul class="no-bullets">
+                <li>
+                  Developed a UI for an internal tool using React, TypeScript, Electron JS, and Rust to abstract away the backend language, to drastically
+  reduce the learning curve for new developers, and speed up development
+                </li>
+                <li>
+                  Owned the full stack of the project: from planning, sketching, scoping, implementing (front end and back end), user testing, and iterating
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="row gx-1">
+          <div class="row gx-1 ms-3">
             <div class="col-1 border-right">
               <h3>2021</h3>
             </div>
             <div class="col px-2">
               <strong>Nvidia | Power Architect Intern</strong> | May 2021 - Aug 2021
+              <ul class="no-bullets">
+                <li>
+                  Implemented scripts using Python to simulate chip power usage in untested scenarios and automated the script verification process
+                </li>
+                <li>
+                  Automated the profiling and analysis of the power estimating suite, helping reduce runtime by 50%
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-      <div id="project-experience" class="section">
+      <div id="project-experience" class="section odd">
         <div class="container-fluid">
           <div class="row">
             <h1>Project Experience</h1>
           </div>
-          <div class="row">
+          <div class="row ms-3">
             <div class="col">
               <div class="card">
                 <img src="images/sps-project-screenshot.png" class="card-img-top">
@@ -257,32 +285,26 @@
           </div>
         </div>
       </div>
-      <div id="contact" class="section">
-        <div class="container-fluid">
+      <div id="contact" class="section even">
+        <div class="container-fluid d-flex flex-column row-gap-3">
           <div class="row">
             <h1>Contact</h1>
           </div>
-          <div class="row">
-            <div class="col">
-              <div class="card">
-                <img src="images/email-logo.png" class="card-img-top">
-                <div class="card-body">
-                  <a href="emailto:em745@cornell.edu">
-                    <h5 class="card-title">efrain@efrainmunoz.com</h5>
-                  </a>  
-                </div>
+          <div class="row ms-3">
+            <a class="no-decor" href="emailto:efrain@efrainmunoz.com">
+              <div class="d-flex logo-row my-2 align-items-center">
+                <img class="me-3" src="images/email.png">
+                <p>efrain@efrainmunoz.com</p>
               </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="images/linkedin-logo.png" class="card-img-top">
-                <div class="card-body">
-                  <a href="https://www.linkedin.com/in/efrainmunoz100/">
-                    <h5 class="card-title">efrainmunoz100</h5>
-                  </a>
-                </div>
+            </a>
+          </div>
+          <div class="row ms-3">
+            <a class="no-decor" href="https://linkedin.com/efrainmunoz100">
+              <div class="d-flex logo-row my-2 align-items-center">
+                <img class="me-3" src="images/linkedin.png">
+                <p>efrainmunoz100</p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

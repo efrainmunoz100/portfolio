@@ -1,7 +1,9 @@
 :root {
   --primary: #EB6440;
+  --light-bg: #fff4f1;
   --navbar-offset: 250px;
   --skills-max: 10;
+  --section-gap: 150px;
 }
 
 .navbar-left {
@@ -42,12 +44,19 @@ img.circular {
 }
 
 .section {
-  margin: 150px 0px;
-  padding-left: 35px;
+  padding: calc(var(--section-gap) / 2) 0px calc(var(--section-gap) / 2) 35px;
 }
 
 #skills {
-  margin: 75px 0px;
+  padding: calc(var(--section-gap) / 4) 0px calc(var(--section-gap) / 2) 35px;
+}
+
+.section.even {
+  background-color: var(--light-bg);
+}
+
+.section.odd {
+  background-color: white;
 }
 
 .scroll-cue {
@@ -82,4 +91,18 @@ img.circular {
 .logo-row img {
   height: 86.75px;
   object-fit: contain;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+}
+
+ul.no-bullets > li {
+  padding: 5px 0px;
+}
+
+a.no-decor {
+  text-decoration: none;
+  font-size: larger;
+  color: black;
 }

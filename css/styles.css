@@ -74,3 +74,8 @@ img.circular {
 #nav-name:hover {
   color: white;
 }
+
+.logo-row img {
+  height: 86.75px;
+  object-fit: contain;
+}

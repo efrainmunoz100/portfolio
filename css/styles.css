@@ -42,8 +42,12 @@ img.circular {
 }
 
 .section {
-  margin: 60px 0px;
+  margin: 150px 0px;
   padding-left: 35px;
+}
+
+#skills {
+  margin: 75px 0px;
 }
 
 .scroll-cue {

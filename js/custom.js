@@ -9,3 +9,6 @@ $(".close-planetary-simulator").on("click", () => {$("#planetary-simulator-modal
 
 $("#app-challenge-card").on("click", () => {$("#app-challenge-modal").fadeIn(75)})
 $(".close-app-challenge").on("click", () => {$("#app-challenge-modal").fadeOut(75)})
+
+$("#immigration-card").on("click", () => {$("#immigration-modal").fadeIn(75)})
+$(".close-immigration").on("click", () => {$("#immigration-modal").fadeOut(75)})

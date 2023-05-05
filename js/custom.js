@@ -12,3 +12,6 @@ $(".close-app-challenge").on("click", () => {$("#app-challenge-modal").fadeOut(7
 
 $("#immigration-card").on("click", () => {$("#immigration-modal").fadeIn(75)})
 $(".close-immigration").on("click", () => {$("#immigration-modal").fadeOut(75)})
+
+$("#ai-card").on("click", () => {$("#ai-modal").fadeIn(75)})
+$(".close-ai").on("click", () => {$("#ai-modal").fadeOut(75)})

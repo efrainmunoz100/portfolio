@@ -118,3 +118,9 @@ a.no-decor {
 .video {
   aspect-ratio: 560 / 315;
 }
+
+#ai-modal-dialog {
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 100vw !important;
+}

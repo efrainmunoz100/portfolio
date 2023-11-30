@@ -39,6 +39,10 @@ img.circular {
   overflow: hidden;
 }
 
+#splash-screen-img {
+  width: calc(100% - var(--navbar-offset));
+}
+
 .border-right {
   border-right: 1px solid black;
 }

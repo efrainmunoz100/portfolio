@@ -118,3 +118,14 @@ a.no-decor {
 .video {
   aspect-ratio: 560 / 315;
 }
+
+.company-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.company-logo img {
+  max-width: 100%;
+  height: auto;
+}

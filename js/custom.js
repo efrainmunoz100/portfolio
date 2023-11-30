@@ -9,3 +9,15 @@ $(".close-planetary-simulator").on("click", () => {$("#planetary-simulator-modal
 
 $("#app-challenge-card").on("click", () => {$("#app-challenge-modal").fadeIn(75)})
 $(".close-app-challenge").on("click", () => {$("#app-challenge-modal").fadeOut(75)})
+
+$(".nav-link, .navbar-brand").on("click", () => {
+  $(window).width() < 992 ? closeNav() : null;
+})
+
+function openNav() {
+  document.documentElement.style.setProperty('--navbar-offset', '250px');
+}
+
+function closeNav() {
+  document.documentElement.style.setProperty('--navbar-offset', '0px');
+}

@@ -2,8 +2,14 @@
   --primary: #EB6440;
   --light-bg: #fff4f1;
   --navbar-offset: 250px;
+  --top-navbar-height: 76.55px;
   --skills-max: 10;
   --section-gap: 150px;
+  --transition-duration: 0.5s;
+}
+
+#navbar {
+  padding: 0.5rem;
 }
 
 .navbar-left {
@@ -11,14 +17,65 @@
   width: var(--navbar-offset);
   overflow-x: hidden;
   overflow-y: auto;
+  transition: width var(--transition-duration);
+}
+
+.navbar-top {
+  background-color: var(--primary);
+  height: var(--top-navbar-height);
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  align-items: center;
+  padding-left: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+#top-navbar-link {
+  flex: 1 1 auto;
+  align-items: center;
+  gap: 10px;
+}
+
+#openNav {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: var(--primary);
+}
+
+#openNav:hover {
+  background-color: var(--light-bg);
+  cursor: pointer;
+}
+
+#closeNav {
+  margin: 10px;
+  top: 0px;
+  right: 0px;
+  font-size: xx-large;
+}
+
+#closeNav:hover {
+  background-color: var(--light-bg);
 }
 
 main {
   margin-left: var(--navbar-offset);
+  transition: margin-left var(--transition-duration);
 }
 
 img.circular {
   border-radius: 50%;
+}
+
+.mini-profile {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
 
 .background {
@@ -41,6 +98,7 @@ img.circular {
 
 #splash-screen-img {
   width: calc(100% - var(--navbar-offset));
+  transition: width var(--transition-duration);
 }
 
 .border-right {
@@ -53,6 +111,10 @@ img.circular {
 
 #skills {
   padding: calc(var(--section-gap) / 4) 0px calc(var(--section-gap) / 2) 35px;
+}
+
+.year {
+  min-width: 67px;
 }
 
 .section.even {
@@ -132,4 +194,14 @@ a.no-decor {
 .company-logo img {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 992px) {
+  :root {
+    --navbar-offset: 0px;
+  }
+
+  #navbar {
+    padding: 0px;
+  }
 }

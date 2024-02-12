@@ -1,11 +1,13 @@
 :root {
   --primary: #EB6440;
+  --link: #FFCCBE;
   --light-bg: #fff4f1;
   --navbar-offset: 250px;
   --top-navbar-height: 76.55px;
   --skills-max: 10;
   --section-gap: 150px;
   --transition-duration: 0.5s;
+  --rel-gutter: 1.5rem;
 }
 
 #navbar {
@@ -157,6 +159,11 @@ img.circular {
   color: white;
 }
 
+.logo {
+  margin-bottom: -50px;
+  transition: margin-bottom 0.5s ease-in-out;
+}
+
 .logo-row img {
   height: 86.75px;
   object-fit: contain;
@@ -174,6 +181,16 @@ a.no-decor {
   text-decoration: none;
   font-size: larger;
   color: black;
+}
+
+div.contact-link {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+div.contact-link:hover {
+  background-color: var(--link);
 }
 
 .modal {
@@ -198,6 +215,10 @@ a.no-decor {
 .company-logo img {
   max-width: 100%;
   height: auto;
+}
+
+.gx-2-5 {
+  --bs-gutter-x: 0.65rem;
 }
 
 @media (max-width: 992px) {
